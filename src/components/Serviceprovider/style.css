@@ -1,0 +1,82 @@
+
+body {
+    font-family: "Lato", sans-serif;
+    color: #020101;
+    background-color: #f2eee3;
+  }
+
+
+  #image{
+    background-image: url("../images/serviceproviderhome.jpg");
+    height: 850px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  #cust{
+    background-image: url("../images/customerhome.jpg");
+    height: 850px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  #head{
+    position: absolute;
+    top: 30px;
+    right: 16px;
+    color: #e4ebf0;
+  }
+
+  #profile{
+    /* border: solid black; */
+    margin-top: 50px;
+    width: 1350px;
+    position: absolute;
+    left: 320px;
+    padding: 50px ;
+    margin-bottom: 100px;
+    text-align: left;
+    border-radius: 29px;
+background: #f2eee3;
+box-shadow:  17px 17px 34px #6f6854,
+             -17px -17px 34px#e6d6aa ;
+  }
+
+
+  .sidenav {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(10, 0, 0);
+    overflow-x: hidden;
+    padding-top: 10px;
+    margin-left: 0;
+    color: #e4ebf0;
+  }
+
+
+  
+  .sidenav  a {
+    padding: 6px 6px 6px 2px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidenav  a:hover {
+    color: #f1f1f1;
+  }
+  
+ 
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+  
